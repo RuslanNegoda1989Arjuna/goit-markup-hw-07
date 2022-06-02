@@ -24,36 +24,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="container main-nav">
+    <header class="header">
+      <div class="container header__container">
         <a href="./" aria-label="Логотип сайта Web Studio" class="logo"
-          ><span class="web">Web</span>Studio</a
+          ><span class="logo__web">Web</span>Studio</a
         >
+        <!-- ___________Navigation_________-->
+
         <nav class="nav">
-          <ul class="site-nav">
-            <li class="item">
-              <a class="link-studio" href="./index.html">Студия</a>
+          <ul class="nav__site">
+            <li class="item nav__item">
+              <a class="link-studio nav__link--studio" href="./index.html">Студия</a>
             </li>
-            <li class="item">
-              <a class="link" href="./portfolio.html">Портфолио</a>
+            <li class="item nav__item">
+              <a class="link nav__link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item">
-              <a class="link" href="#">Контакты</a>
+            <li class="item nav__item">
+              <a class="link nav__link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
+        <!-- ___________Contact__________ -->
+
         <ul class="contact">
-          <li class="item">
-            <a class="link icon-header" href="mailto:info@devstudio.com">
-              <svg class="header-icon">
+          <li class="item contact__item">
+            <a class="link contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./image/symbol-defs1.svg#icon-emaile-icon"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="link icon-tel" href="tel:380961111111:">
-              <svg class="tel-icon">
+          <li class="item contact__item">
+            <a class="link contact__link" href="tel:380961111111:">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./image/symbol-defs1.svg#icon-mobile-icon"></use>
               </svg>
               +38 096 111 11 11</a
