@@ -156,12 +156,6 @@ ul {
 /*#endregion*/
 /*_________CONTAINER_______*/
 
-.our-work {
-  background-color: var(--backgr-work);
-}
-.uniqueness {
-  background-color: var(--backgr-work);
-}
 .team {
   background-color: var(--backgr-team);
 }
@@ -465,22 +459,17 @@ ul {
 }
 
 /*#endregion*/
-/*#region Оссобенности*/
-.uniqueness {
+/*#region ________Оссобенности_______*/
+
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.specifics-list {
-  display: flex;
+
+  background-color: var(--backgr-work);
 }
 
-.container .specifics-list .item {
-  width: 270px;
-}
-.specifics-list .item + .item {
-  margin-left: 30px;
-}
-.section-title {
+/* __ Сховати заголовок____ */
+.features__section-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -492,7 +481,24 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.uniqueness .second-title {
+
+.features__list {
+  display: flex;
+}
+
+/* прибрати крапки в списках*/
+.features__item {
+  list-style-type: none;
+}
+
+.features__item {
+  width: 270px;
+}
+.features__item + .features__item {
+  margin-left: 30px;
+}
+
+.features__second-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -503,7 +509,7 @@ ul {
 
   margin-bottom: 10px;
 }
-.uniqueness .text {
+.features__text {
   font-size: 14px;
   line-height: 1.71;
 
@@ -513,7 +519,7 @@ ul {
 }
 
 /*SVG - Наши особенности*/
-.bgr-icon {
+.features__bgr-icon {
   display: flex;
   background-color: #f5f4fa;
   height: 120px;
@@ -526,33 +532,41 @@ ul {
 
 /*#endregion*/
 /*#region Чим займаємося*/
-.title {
+
+.services {
+  padding-bottom: 94px;
+  background-color: var(--backgr-work);
+}
+
+.services__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
-}
-.our-work .title {
+
   margin-bottom: 50px;
 }
-.work-list {
+
+.services__list {
   position: relative;
 
   display: flex;
 }
-.our-work {
-  padding-bottom: 94px;
+
+.services__image {
+  display: block;
 }
-.work-list .item + .item {
+.services__item + .services__item {
   margin-left: 30px;
 }
-.work-list .text-img {
+
+/* Позиціонування тексту над картинкою*/
+.services__text-img {
   position: absolute;
   bottom: 0;
 
-  /* content: ''; */
   display: flex;
   width: 370px;
   height: 70px;
@@ -597,6 +611,13 @@ ul {
   color: #757575;
 }
 .team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+
   margin-bottom: 50px;
 }
 .team-list {
@@ -898,7 +919,7 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-/*____________OVERLEY__________*/
+/*____________OVERLEY виїжаючий текст__________*/
 .image-box {
   position: relative;
   overflow: hidden;
@@ -939,6 +960,13 @@ ul {
 
 /*#region CLIENT LOGO SVG*/
 .client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-title);
+
   margin-bottom: 50px;
 }
 .our-client {
