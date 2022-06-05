@@ -21,7 +21,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- Styles-->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -83,7 +83,10 @@
             <li class="item">
               <button type="button" class="button">Маркетинг</button>
             </li>
-          </ul>   
+
+          </ul>  
+          <!-- portfolio --> 
+
           <ul class="list-img">
             <li class="item item-img ">
               <a class="link img-link" href="" target="_blank" rel="noreferrer noopener">
@@ -93,13 +96,10 @@
                       alt="ноутбук с открытым сайтом"
                       width="370"
                       height="294" class="image"/>
-                 <div class="overlay-box">
+                  <div class="overlay-box">
                       <p class="overley">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                 </div>
-                
-
-                </div>
-                 
+                  </div>
+                </div>                 
                <div class="portfolio-border">
                 <h2 class="title">Технокряк</h2>
                <p class="text">Веб-сайт</p>
@@ -136,20 +136,20 @@
               <a class="link img-link" href="" target="_blank" rel="noreferrer noopener">
                 <div class="image-box">
 
-                    <img
+                  <img
                    src="./image/portfolio/img-2.jpg"
                    alt="название ресторана на фоне рыбы"
                    width="370"
                   height="294" class="image"/>
                   <div class="overlay-box">
                       <p class="overley">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                 </div>
+                  </div>
 
                 </div>  
                
               <div class="portfolio-border">
                 <h2 class="title">Ресторан Seafood</h2>
-              <p class="text">Приложение</p>
+                <p class="text">Приложение</p>
               </div>
               </a>
              
@@ -159,7 +159,12 @@
               <a class="link img-link" href="" target="_blank" rel="noreferrer noopener">
                    <div class="image-box">
 
-                    <img src="./image/portfolio/img-3.jpg" alt="наушники" width="370" height="294" class="image"/>
+                    <img 
+                    src="./image/portfolio/img-3.jpg" 
+                    alt="наушники" 
+                    width="370" 
+                    height="294" 
+                    class="image"/>
                        <div class="overlay-box">
                           <p class="overley">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                        </div>
@@ -294,7 +299,8 @@
     <footer class="footer">
       <div class="container footer-container">
            <div class="one-two"> 
-            <a href="./" aria-label="Логотип сайта Web Studio" class="logo"><span class="web">Web</span>Studio</a>
+            <a href="./" aria-label="Логотип сайта Web Studio" class="logo"
+          ><span class="logo__web">Web</span>Studio</a>
               <address class="address">
                   <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="address-list">
@@ -356,7 +362,7 @@
               autocomplete="on" 
               placeholder="E-mail" >
             </label>
-          <button class="tbn-submit">Подписаться
+          <button class="form__button-submit">Подписаться
              <svg class="telegram-icon" width="24" height="24">
                <use href="./image/symbol-defs1.svg#icon-telegram"></use>
              </svg>

@@ -1,0 +1,123 @@
+.footer .text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer .link {
+  display: block;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: #2196f3;
+}
+.address .text {
+  margin-bottom: 9px;
+}
+
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--backgr-hero);
+}
+
+/* ____sosial-icon_____*/
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.title-social {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.one-two:not(:last-child) {
+  margin-right: 70px;
+}
+.one-two .social-icon {
+  fill: var(--backgr-header);
+}
+.one-two .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one-two .social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.one-two .socials-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: var(--color-button);
+}
+.socials-link:hover .social-icon,
+.socials-link:focus .social-icon {
+  fill: #ffffff;
+}
+
+/*-------- Подпишись------*/
+.footer-lable {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.telegram-icon {
+  fill: #fff;
+  margin-left: 10px;
+}
+.input-email {
+  width: 358px;
+  height: 50px;
+
+  padding-left: 16px;
+  background-color: #2f303a;
+  color: #fff;
+  outline: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-email:focus {
+  border: 2px solid var(--color-button);
+}
+.sibscribe .form__button-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-form {
+  display: flex;
+}

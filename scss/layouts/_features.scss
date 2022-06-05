@@ -1,0 +1,68 @@
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: var(--backgr-work);
+}
+
+/* __ Сховати заголовок____ */
+.features__section-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features__list {
+  display: flex;
+}
+
+/* прибрати крапки в списках*/
+.features__item {
+  list-style-type: none;
+}
+
+.features__item {
+  width: 270px;
+}
+.features__item + .features__item {
+  margin-left: 30px;
+}
+
+.features__second-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+
+  margin-bottom: 10px;
+}
+.features__text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/*SVG - Наши особенности*/
+.features__bgr-icon {
+  display: flex;
+  background-color: #f5f4fa;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+  border-radius: 4px;
+}

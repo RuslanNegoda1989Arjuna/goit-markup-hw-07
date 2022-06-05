@@ -1,0 +1,29 @@
+// ___utils__vars_____________
+
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+//___base styles_____________
+
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+//___components_______
+
+@import './components/logo';
+@import './components/button';
+@import './components/modal-form';
+@import './components/socials';
+
+//___layouts_________
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/servises';
+@import './layouts/team';
+@import './layouts/client-logo';
+@import './layouts/footer';
+@import './layouts/portfolio/filtr';
+@import './layouts/portfolio/portfolio';

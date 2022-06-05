@@ -1,0 +1,20 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  text-decoration: none;
+
+  transition: color var(--animation);
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
